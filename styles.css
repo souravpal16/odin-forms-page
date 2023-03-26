@@ -1,0 +1,93 @@
+@font-face {
+  font-family: norseBold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0;
+  display: flex;
+}
+
+.left{
+  font-size: 20px;
+  background-image: url('./images/logo-pic.jpg');
+  background-size: cover;
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo-container{
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  margin-top: 200px;
+  padding: 10px 0;
+}
+
+.background-logo{
+  height: 100px;
+}
+
+.logo-text{
+  font-family: norseBold;
+  color: white;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.picture-credits{
+  margin-bottom: 0;
+  /* background-color: rgba(0,0,0,0.5); */
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.right{
+  width: 70vw;
+  height: 100vh;
+  background-color: #edf2f4;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.margin-left-20{
+  margin-left: 20px;
+}
+
+.padding-left-20{
+  padding-left: 20px;
+}
+
+.first-para{
+  width: 50vw;
+}
+
+.form-container{
+  height: 200px;
+  background-color: #ffffff;
+}
+
+.create-account{
+  margin-top: 30px;
+  background-color: #588157;
+  width: 180px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
