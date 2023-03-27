@@ -8,15 +8,14 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Photo by Gatis Marcinkevics on unsplash -->
   <div class="left">
     <div class="logo-container">
       <img class="background-logo" src="./images/logo.png" alt="">
       <p class="logo-text">ODIN</p>
     </div>
-    <p class="picture-credits">Photo by <span class="underlined">Gatis Marcinkevics</span> on <span class="underlined">unsplash</span></p>
+    <p class="picture-credits">Photo by <span class="underlined">Halie West</span> on <span class="underlined">Unsplash</span></p>
   </div>
-  
+
   <div class="right">
     <div class="first-para">
       <p class="margin-left-20 ">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started</p>
@@ -26,13 +25,35 @@
     <div class="form-container padding-left-20">
       <p>Let's do this</p>
       <form action="#" method="post">
-        <label for="first-name">
-          <input type="text" id="first-name">
-        </label>
+        <div class="form-row">
+          <label for="first-name">FIRST NAME</label>
+          <input id="first-name" type="text" name="first-name">
+        </div>
+        <div class="form-row">
+          <label for="last-name">LAST NAME</label>
+          <input id="last-name" type="text" name="last-name">
+        </div>
+        <div class="form-row">
+          <label for="email">EMAIL</label>
+          <input id="email" type="text" name="email">
+        </div>
+        <div class="form-row">
+          <label for="phone-no">PHONE NUMBER</label>
+          <input id="phone-no" type="text" name="phone-no">
+        </div>
+        <div class="form-row">
+          <label for="password">PASSWORD</label>
+          <input id="password" class="error" type="text" name="password">
+          <p class="wrong-password-info">*Passwords do not match</p>
+        </div>
+        <div class="form-row">
+          <label for="confirm-password">COFIRM PASSWORD</label>
+          <input id="confirm-password" class="error" type="text" name="confirm-password">
+        </div>
       </form>
     </div>
     <div class="create-account margin-left-20">Create Account</div>
-    <p class="margin-left-20">Already have an account? <span class="login">Log in</span></p>
+    <p class="margin-left-20 font-size-16">Already have an account? <span class="login">Log in</span></p>
   </div>
 </body>
 </html>

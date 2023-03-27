@@ -8,6 +8,7 @@ body{
   padding: 0px;
   font-size: 0;
   display: flex;
+  font-family: sans-serif;
 }
 
 .left{
@@ -43,7 +44,6 @@ body{
 
 .picture-credits{
   margin-bottom: 0;
-  /* background-color: rgba(0,0,0,0.5); */
   text-align: center;
   color: white;
   font-size: 16px;
@@ -77,13 +77,54 @@ body{
 }
 
 .form-container{
-  height: 200px;
+  padding-bottom: 20px;
   background-color: #ffffff;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-row{
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-row input[type='text']{
+  width: 200px;
+  height: initial;
+  border: 1px solid #E5E7EB;
+  border-radius: 2px;
+}
+
+.form-row input[type='text']:focus{
+  outline: none;
+  border: 1px solid #219ebc;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-row input.error{
+  border: 1px solid red;
+}
+
+.wrong-password-info{
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
+
+.form-row label{
+  font-size: 12px;
+  width: 120px;
 }
 
 .create-account{
   margin-top: 30px;
-  background-color: #588157;
+  background-color: #596D48;
   width: 180px;
   text-align: center;
   border-radius: 5px;
@@ -91,3 +132,13 @@ body{
   color: white;
   font-size: 16px;
 }
+
+.font-size-16{
+  font-size: 16px;
+}
+
+.login{
+  color: #596D48;
+}
+
+/**/
